@@ -87,6 +87,7 @@
     var accounts = it.affected_accounts.toLocaleString('en-US');
     return '<incident-ledger-cell class="ledger-cell ' + sevClass + '"' +
       ' data-incident-id="' + it.incident_id + '"' +
+      ' data-service="' + it.service + '"' +
       ' data-severity="' + it.severity + '"' +
       ' data-impact-minutes="' + it.impact_minutes + '"' +
       ' data-affected-accounts="' + it.affected_accounts + '"' +
